@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
@@ -6,9 +6,14 @@ module.exports = {
       primary: 'Libre Baskerville'
     },
     extend: {
-      
-    },
+      backgroundColor: {
+        'light-brown-1':  '#563d2d',
+      },
+      textColor:{
+        'light-brown-1':  '#563d2d',
+      },
   },
   plugins: [],
+  }
 }
 
