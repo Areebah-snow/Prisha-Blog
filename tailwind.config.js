@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    FontFamily:{
+      primary: 'Libre Baskerville'
+    },
+    extend: {
+      
+    },
   },
   plugins: [],
 }
