@@ -1,9 +1,9 @@
-import NavBar from './components/NavBar';
+import NavBar from './components/nav/NavBar';
 
 function App() {
   return (
    <div>
-    Hi maya
+    <NavBar/>
    </div>
    
   );
