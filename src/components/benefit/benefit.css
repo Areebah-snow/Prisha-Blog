@@ -1,0 +1,43 @@
+.benefit{
+    margin: 20px;
+}
+
+.benefit-title{
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+
+}
+.right-container{
+    display: flex;
+    flex-direction: row;
+    width: 500px
+}
+
+.details{
+    
+}
+.benefit-image{
+    width: 50vh;
+    border-bottom-right-radius: 12rem;
+}
+
+.icon{
+    color: brown;
+}
+.benefit-image::after{
+    content: '';
+    width: 500px;
+    height:50px;
+    border: 2px solid brown;
+
+
+}
+.left-container{
+    
+}
