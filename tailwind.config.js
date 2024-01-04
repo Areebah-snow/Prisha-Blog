@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       backgroundColor: {
-        'light-brown-1':  '#e1d1c6',
+        'light-brown-1':  '#fffbeb',
       },
       textColor:{
         'dark-brown-2':'#855e46',
