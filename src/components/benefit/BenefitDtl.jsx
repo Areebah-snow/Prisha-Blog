@@ -19,9 +19,9 @@ const BenefitDtl = ({detailsArray}) => {
                 
                  </svg>
                 </div>
-                <div className="details text-light-brown-1">
-                        <h1 className="font-bold">{data.heading}</h1>
-                        <p>{data.details}</p>
+                <div className="details">
+                        <h1 className="font-bold text-dark-brown-2 ">{data.heading}</h1>
+                        <p className=" text-light-brown-1 text-sm my-4">{data.details}</p>
                 </div>
                 </div> 
             ))}

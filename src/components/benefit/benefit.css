@@ -1,5 +1,6 @@
 .benefit{
     margin: 20px;
+    
 }
 
 .benefit-title{
@@ -16,7 +17,9 @@
 .right-container{
     display: flex;
     flex-direction: row;
-    width: 500px
+    width: 500px;
+    gap: 10px;
+    margin-left: 30px;
 }
 
 .details{
@@ -28,13 +31,13 @@
 }
 
 .icon{
-    color: brown;
+    color: #855e46;
 }
 .benefit-image::after{
     content: '';
     width: 500px;
     height:50px;
-    border: 2px solid brown;
+    border: 2px solid #855e46;
 
 
 }
