@@ -1,18 +1,18 @@
 import React from 'react';
 import "../nav/NavBar.css"
-import {magnifying-glass} from '@heroicons/react/outline';
+// import {magnifying-glass} from '@heroicons/react/outline';
 
 
 const navbar = () => {
   return (
-    <nav className=''>
+    <nav className='navbar flex justify-between items-center w-[100%] z-30'>
       {/* logo */}
-     <div>
-     <h1>Prisha</h1>
+     <div className='logo '>
+     <h1>Pri<span className='lg'>sha.</span></h1>
      </div>
       {/* nav menu */}
      <div className=''>
-      <ul>
+      <ul className='nav-menu flex justify-between'>
         <li>Home</li>
         <li>About</li>
         <li>Shop</li>
@@ -20,7 +20,7 @@ const navbar = () => {
       </ul>
      </div>
       {/* navn icons */}
-     <div className='relative'>
+     <div className='nav-icon relative'>
       <ul>
         
       </ul>

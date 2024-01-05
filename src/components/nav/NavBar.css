@@ -1,0 +1,10 @@
+.navbar{
+    padding: 1rem;
+}
+.navbar .lg{
+    color: #855e46;
+}
+.nav-menu{
+    list-style: none;
+    gap: 1rem;
+}
