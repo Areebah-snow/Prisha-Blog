@@ -6,7 +6,7 @@ const BenefitDtl = ({detailsArray}) => {
            
             {detailsArray.map((data, index)=>(
                 
-             <div  key={index} className="right-container"> 
+             <div key={index} className="right-container"> 
                 <div className="icon">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -18,7 +18,11 @@ const BenefitDtl = ({detailsArray}) => {
                  dangerouslySetInnerHTML={{ __html: data.icon }}>
                 
                  </svg>
+
+                
+
                 </div>
+                
                 <div className="details">
                         <h1 className="font-bold text-dark-brown-2 ">{data.heading}</h1>
                         <p className=" text-light-brown-1 text-sm my-4">{data.details}</p>
