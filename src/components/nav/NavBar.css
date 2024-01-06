@@ -1,5 +1,6 @@
 body{
-
+   box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 .navbar{
     padding: 23px;
