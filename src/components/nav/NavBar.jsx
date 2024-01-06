@@ -19,10 +19,10 @@ const navbar = () => {
           <li>Cart</li>
         </ul>
       </div>
-      {/* navn icons */}
+      {/*search box */}
       <div className="search_bar">
         <input type="text" placeholder="Furniture Sets"/>
-          <svg
+          <svg className="si"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"

@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-   background-color: #e2d4ba;
+   background-color: #ffffff;
 }
 .navbar{
     padding: 23px;
@@ -20,7 +20,7 @@ body{
 .nav-menu {
     list-style: none;
     gap: 3rem;
-    font-size: 17px;
+    font-size: 15px;
 }
 .search_bar {
     background-color: #eee;
@@ -33,7 +33,13 @@ body{
     border-radius: 25px;
 }
 .search_bar input{
-    background-color: #eee;
+    background: none;
     width: 220px;
     font-size: 12px;
+    border: none;
+    outline: none;
+}
+.si:hover{
+    color: #855e46;
+    cursor: pointer;
 }
