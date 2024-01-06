@@ -1,0 +1,6 @@
+.head{
+    width: 100%;
+    height: 100vh;
+    display: flexbox;
+    margin: 13px;
+}

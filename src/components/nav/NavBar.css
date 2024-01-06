@@ -10,7 +10,8 @@ body{
 .navbar{
     width: 100%;
     padding: 23px;
-    position: sticky;
+    position: fixed;
+    z-index: 100;
 }
 .logo{
     font-size: 25px;
