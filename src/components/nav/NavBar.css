@@ -11,18 +11,22 @@ body{
 .navbar .lg{
     color: #855e46;
 }
-.nav-menu{
+.nav-menu {
     list-style: none;
     gap: 3rem;
     font-size: 17px;
 }
-.search_bar{
+.search_bar {
     background-color: #eee;
-    width: 300px;
+    width: 270px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 25px;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+.search_bar input{
+    background-color: #eee;
+    width: 240px;
 }
