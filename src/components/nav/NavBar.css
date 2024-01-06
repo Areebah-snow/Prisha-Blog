@@ -1,5 +1,8 @@
+body{
+
+}
 .navbar{
-    padding: 1rem;
+    padding: 23px;
     position: sticky;
 }
 .logo{
@@ -12,4 +15,14 @@
     list-style: none;
     gap: 3rem;
     font-size: 17px;
+}
+.search_bar{
+    background-color: #eee;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    border-radius: 10px;
 }

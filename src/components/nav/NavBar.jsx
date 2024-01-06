@@ -20,8 +20,8 @@ const navbar = () => {
         </ul>
       </div>
       {/* navn icons */}
-      <div className="nav-icon relative">
-        <ul>
+      <div className="search_bar">
+        <input type="text" placeholder="search"/>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -36,7 +36,7 @@ const navbar = () => {
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
             />
           </svg>
-        </ul>
+        
       </div>
     </nav>
   );
