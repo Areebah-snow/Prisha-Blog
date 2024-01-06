@@ -7,10 +7,10 @@ const headEr = () => {
     <div className='head'>
       <div className="head_txt"></div>
       <div className="head_img">
-        <img className="header-image" src={HeadImg} />
+        <img className="header-image" src={HeadImg} alt='furniture1'/>
       </div>
     </div>
-  )
+  );
 }
 
 export default headEr;

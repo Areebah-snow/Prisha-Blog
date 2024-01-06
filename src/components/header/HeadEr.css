@@ -3,4 +3,11 @@
     height: 100vh;
     display: flexbox;
     margin: 13px;
+    padding: 10px;
+}
+.head_txt{
+    width: 50%;
+}
+.head_img{
+    width: 50%;
 }
