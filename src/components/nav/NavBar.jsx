@@ -3,7 +3,7 @@ import "../nav/NavBar.css";
 
 const navbar = () => {
   return (
-    <nav className="navbar flex justify-between items-center w-[100%] z-30">
+    <nav className="navbar flex">
       {/* logo */}
       <div className="logo ">
         <h1>
