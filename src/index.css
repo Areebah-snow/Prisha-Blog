@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@100;400;500;900&family=Tilt+Neon&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;400;500;900&family=Tilt+Neon&display=swap');
 
 body {
-  font-family: 'Libre Baskerville','Roboto', serif;
+  font-family: 'Playfair Display','Libre Baskerville','Roboto', serif;
 }
