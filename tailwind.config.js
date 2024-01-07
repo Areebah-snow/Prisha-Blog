@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     FontFamily:{
-      primary: 'Libre Baskerville'
+      primary: 'Playfair Display'
     },
     extend: {
       backgroundColor: {
