@@ -33,11 +33,15 @@
 .icon{
     color: #855e46;
 }
-.benefit-image::after{
+.left-container::after{
     content: '';
-    width: 500px;
-    height:50px;
-    border: 2px solid #855e46;
+    width: 320px;
+    height:330px;
+    border: 3px solid #996545;
+    position: absolute;
+    top: 245px;
+    left: 280px;
+    border-bottom-right-radius: 12rem;
 
 
 }
