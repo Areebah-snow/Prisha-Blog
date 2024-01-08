@@ -1,15 +1,15 @@
 .benefit{
-    margin: 20px;
+    padding: 20px;
     
 }
 
 .benefit-title{
-    position: relative;
-    display: inline-block;
+    margin-block: 30px 40px;
+    text-align: center;
     
 
 }
-.benefit-title::after {
+/* .benefit-title::after {
     content: '';
     position: absolute;
     bottom: 0%;
@@ -17,7 +17,7 @@
     width: 50%;
     height: 2px; 
     background-color: #000;
-  }
+  } */
 
 .main-container{
     display: flex;
@@ -42,7 +42,7 @@
     text-align: justify;
 }
 .benefit-image{
-    width: 60vh;
+    width: 400px;
     border-bottom-right-radius: 12rem;
 }
 
@@ -53,7 +53,7 @@
 
 .icon svg{
     color: #855e46;
-    transform: scale(1.8);
+    transform: scale(1.6);
 }
 
 .left-container{
