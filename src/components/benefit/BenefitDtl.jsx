@@ -24,8 +24,8 @@ const BenefitDtl = ({detailsArray}) => {
                 </div>
                 
                 <div className="details">
-                        <h1 className="font-bold text-dark-brown-2 ">{data.heading}</h1>
-                        <p className=" text-light-brown-1 text-sm my-4">{data.details}</p>
+                        <h1 className="font-bold text-2xl text-dark-brown-2 ">{data.heading}</h1>
+                        <p className=" text-light-brown-1 text-lg my-4">{data.details}</p>
                 </div>
                 </div> 
             ))}
