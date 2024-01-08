@@ -49,11 +49,13 @@
 .icon{
    
     vertical-align: text-top;
+
 }
 
 .icon svg{
     color: #855e46;
     transform: scale(1.6);
+    
 }
 
 .left-container{
