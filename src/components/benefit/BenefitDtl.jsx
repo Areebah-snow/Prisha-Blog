@@ -14,7 +14,7 @@ const BenefitDtl = ({detailsArray}) => {
                 viewBox="0 0 24 24" 
                 stroke-width="1.5"
                  stroke="currentColor" 
-                 class="w-6 h-6"
+                 class="w-8 h-8"
                  dangerouslySetInnerHTML={{ __html: data.icon }}>
                 
                  </svg>
@@ -25,7 +25,7 @@ const BenefitDtl = ({detailsArray}) => {
                 
                 <div className="details">
                         <h1 className="font-bold text-2xl text-dark-brown-2 ">{data.heading}</h1>
-                        <p className=" text-light-brown-1 text-lg my-4">{data.details}</p>
+                        <p className=" text-light-gray text-lg my-4">{data.details}</p>
                 </div>
                 </div> 
             ))}
