@@ -1,0 +1,15 @@
+.navbar{
+    padding: 1rem;
+    position: sticky;
+}
+.logo{
+    font-size: 25px;
+}
+.navbar .lg{
+    color: #855e46;
+}
+.nav-menu{
+    list-style: none;
+    gap: 3rem;
+    font-size: 17px;
+}
