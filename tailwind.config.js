@@ -7,11 +7,12 @@ module.exports = {
     },
     extend: {
       backgroundColor: {
-        'light-brown-1':  '#fffbeb',
+        'light-brown-1':  '#F3F2F0',
       },
       textColor:{
-        'dark-brown-2':'#855e46',
+        'dark-brown-2':'#8D7358',
         'light-brown-1':  '#a07154',
+        'light-gray': '#767C88'
       },
   },
   plugins: [],
