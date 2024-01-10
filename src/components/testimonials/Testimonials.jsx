@@ -1,9 +1,11 @@
+import '../testimonials/testimonials.css'
+
 const Testimonials = () => {
     return ( 
 
-        <div>
-            <div className="main-container">
-                <h1 className="heading">Testimonials</h1>
+        <div className='testimonials'>
+            <div className="testi-container">
+                <h1 className="text-center mt-10 font-bold text-5xl mb-5 heading">Testimonials</h1>
 
             </div>
           

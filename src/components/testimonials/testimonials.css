@@ -1,10 +1,15 @@
+.testimonials{
+    padding:30px 60px
+}
+
+
 .heading{
     margin-block: 30px 40px;
-    text-align: center;
+  
     color: #564130;
     /* border-bottom: 3px solid #564130 ; */
 }
-.heading::after {
+.heading::after{
     content: '';
     display: block;
     height: 3px; 
@@ -12,7 +17,6 @@
     padding-top: 10px;
     position: absolute;
     left: 45%;
-    
     border: transparent ;
     border-bottom: 2px solid #564130;
   } 

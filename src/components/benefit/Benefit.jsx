@@ -31,7 +31,7 @@ const Benefit = () => {
 
     return ( 
         <div className="benefit bg-light-brown-1">
-            <h1 className="text-center  mt-10 font-bold text-4xl mb-5 benefit-title">Your Benefits</h1>
+            <h1 className="text-center  mt-10 font-bold text-5xl mb-5 benefit-title">Your Benefits</h1>
 
             <div className="main-container ">
                     <div className="left-container">
