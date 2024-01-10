@@ -37,8 +37,10 @@ const Benefit = () => {
                     <div className="left-container">
                         <img className="benefit-image" src={BenefitImg} />
                     </div>
-                    
-                    <BenefitDtl detailsArray={detailsArray}/>
+                    <div className="right-container" >
+                      <BenefitDtl detailsArray={detailsArray}/>
+                    </div>
+                  
 
             </div>
 
