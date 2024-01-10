@@ -6,7 +6,7 @@
 .heading{
     margin-block: 30px 40px;
   
-    color: #564130;
+    ;
     /* border-bottom: 3px solid #564130 ; */
 }
 .heading::after{
