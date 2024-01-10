@@ -1,0 +1,18 @@
+.heading{
+    margin-block: 30px 40px;
+    text-align: center;
+    color: #564130;
+    /* border-bottom: 3px solid #564130 ; */
+}
+.heading::after {
+    content: '';
+    display: block;
+    height: 3px; 
+    width: 10%;
+    padding-top: 10px;
+    position: absolute;
+    left: 45%;
+    
+    border: transparent ;
+    border-bottom: 2px solid #564130;
+  } 
