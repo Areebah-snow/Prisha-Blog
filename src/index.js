@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Benefit from './components/benefit/Benefit';
 import Testimonials from './components/testimonials/Testimonials';
+import Footer from './components/footer/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +13,7 @@ root.render(
     <App />
     <Benefit/>
     <Testimonials/>
+    <Footer/>
   </React.StrictMode>
 );
 
