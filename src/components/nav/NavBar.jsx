@@ -23,8 +23,8 @@ const navbar = () => {
           <li>About</li>
           <li>Shop</li>
           <li>Cart</li> */}
-          {Links.map((Link) => (
-            <li>
+          {Links.map((Link) =>(
+            <li className="md:ml-8 text-xl md:my-0 my-7">
               <a href={Link.link}>{Link.name}</a>
             </li>
           ))}
@@ -54,3 +54,5 @@ const navbar = () => {
 };
 
 export default navbar;
+
+
