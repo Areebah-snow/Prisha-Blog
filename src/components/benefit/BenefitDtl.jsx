@@ -6,15 +6,15 @@ const BenefitDtl = ({detailsArray}) => {
            
             {detailsArray.map((data, index)=>(
                 
-             <div key={index} className="right-container"> 
+             <div key={index} className="mini-container"> 
                 <div className="icon">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 
                 viewBox="0 0 24 24" 
-                stroke-width="1.5"
+                stroke-width="1.4"
                  stroke="currentColor" 
-                 class="w-8 h-8"
+                 class="w-10 h-10"
                  dangerouslySetInnerHTML={{ __html: data.icon }}>
                 
                  </svg>
