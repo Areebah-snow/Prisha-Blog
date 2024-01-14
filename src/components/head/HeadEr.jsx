@@ -1,5 +1,6 @@
 import React from 'react';
 import "../head/HeadEr.css";
+import HeroImg from "./../../images/img7.jpg";
 
 const HeadEr = () => {
   return (
@@ -12,7 +13,9 @@ const HeadEr = () => {
             <p className="first_p text-[1.2rem] ">Enjoy the new furnitures every time <br /> you move and feel the castle house <br /> of your dreams</p>
         </div>
         {/* image section */}
-        <div className="img-sec">image</div>
+        <div className="img-sec">
+            <img className="hd_img w-[500px] h-[500px]" alt="vase" src={HeroImg} />
+        </div>
        </div>
     </div>
   );
