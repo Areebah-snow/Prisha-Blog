@@ -9,7 +9,7 @@ const navbar = () => {
     { name: "Cart", link: "/" },
   ];
   return (
-    <nav className="navbar shadow-md flex fixed left-0 top-0  bg-white/100 mx-auto px-6">
+    <nav className="navbar shadow-md flex fixed left-0 top-0  bg-white/100 mx-auto px-12 py-[15px]">
       {/* logo */}
       <div className="logo ">
         <h1>
