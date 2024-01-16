@@ -1,11 +1,38 @@
 .footer{
     display: flex;
     justify-content: space-between ;
-    max-width: 80% ;
+    max-width: 75% ;
     margin: auto;
+    align-items: baseline;
+    color: #a07154;
+   
 }
 
 .left p{
     max-width: 500px ;
 
+}
+
+.right table{
+   
+   width: 500px;
+   min-width: 300px ;
+}
+
+th{
+    color: #694d3b;
+}
+th,td{
+    text-align: left;
+    padding: 10px 30px;
+}
+
+td{
+    font-family: 'Roboto';
+}
+i{
+    color: #a07154;
+    font-size: 30px;
+    /* padding-block: 8px; */
+    padding-right: 8px;
 }
